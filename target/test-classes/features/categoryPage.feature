@@ -18,7 +18,7 @@ Feature: Category Page
      Given User is on Category Page
      Then Verify that dropdowns are usable
 
-   @test
+
    Scenario: Product Grid
      Given User is on Category Page
      And select a category

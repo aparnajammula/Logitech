@@ -7,6 +7,6 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {"src/test/resources/features"}
-        ,format = {"pretty","html:TestResults/cucumber","junit:TestResults/junit/junit.xml"}
+        ,format = {"pretty","json:target/cucumber-json-report.json","html:TestResults/cucumber","junit:TestResults/junit/junit.xml",}
 )
 public class RunnerTest {}
