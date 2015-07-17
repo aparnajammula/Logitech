@@ -1,0 +1,13 @@
+functional_tests/pages/category.class
+functional_tests/automationFramework/Framework.class
+functional_tests/pages/compare.class
+functional_tests/pages/home.class
+functional_tests/stepDefinition/navigateTest.class
+functional_tests/stepDefinition/categoryPage.class
+functional_tests/stepDefinition/RunnerTest.class
+functional_tests/automationFramework/CommonFunctions.class
+functional_tests/pages/pdp.class
+functional_tests/automationFramework/BrowserSize.class
+functional_tests/pages/navigation.class
+functional_tests/automationFramework/UrlConfiguration.class
+functional_tests/stepDefinition/commonSteps.class

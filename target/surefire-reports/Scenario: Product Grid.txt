@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Scenario: Product Grid
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.431 sec - in Scenario: Product Grid

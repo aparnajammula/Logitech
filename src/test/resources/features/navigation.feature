@@ -21,7 +21,7 @@ Feature: Navigation
     Given User is on Category Page
     Then verify user is able to successfully subscribe to newsletter
 
-  Scenario: Able to subscribe to Newsletter
+  Scenario: Newsletter Error
     Given User is on Category Page
     Then Error is displayed on entering an invalid email
 

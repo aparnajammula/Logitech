@@ -83,17 +83,17 @@
 
     <profiles>
         <profile>
-            <id>dev1</id>
+            <id>dev</id>
             <properties>
                 <Logitech.website.url>http://logitech:log!tech@54.149.5.19/</Logitech.website.url>
                 <cucumber.options>--tags @smoke_test</cucumber.options>
             </properties>
         </profile>
         <profile>
-            <id>local2</id>
+            <id>tst</id>
             <properties>
                 <Logitech.website.url>http://logitech:log!tech@52.24.132.228/</Logitech.website.url>
-                <cucumber.options>--tags @mytest</cucumber.options>
+                <cucumber.options></cucumber.options>
             </properties>
         </profile>
     </profiles>

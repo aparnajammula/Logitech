@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="30.365882">
+<testcase classname="Category Page" name="Product Grid" time="30.365882">
+<system-out><![CDATA[Given User is on Category Page..............................................passed
+And select a category.......................................................passed
+And Hover on product image..................................................passed
+Then the following elements of the "category" should be displayed...........passed
+]]></system-out>
+</testcase>
+</testsuite>

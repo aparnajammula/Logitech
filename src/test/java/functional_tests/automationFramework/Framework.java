@@ -45,7 +45,14 @@ public class Framework {
         String seleniumHubEndpoint = System.getProperty("selenium.hub.endpoint");
         if(StringUtils.isNotEmpty(seleniumHubEndpoint)) {
             caps = new DesiredCapabilities();
-            caps.setCapability("browser", System.getProperty("selenium.hub.capability.browser", "firefox"));
+            caps.setCapability("browser", "Firefox");
+            caps.setCapability("browser_version", "39.0");
+            caps.setCapability("os", "OS X");
+            caps.setCapability("os_version", "Yosemite");
+            caps.setCapability("resolution", "1280x960");
+            caps.setCapability("browserstack.debug", "true");
+
+            /*caps.setCapability("browser", System.getProperty("selenium.hub.capability.browser", "firefox"));
 
             if(StringUtils.isNotEmpty(System.getProperty("selenium.hub.capability.browser_version"))) {
                 caps.setCapability("browser_version", System.getProperty("selenium.hub.capability.browser_version"));
@@ -60,7 +67,7 @@ public class Framework {
             }
             if(StringUtils.isNotEmpty(System.getProperty("selenium.hub.capability.browserstack.debug"))) {
                 caps.setCapability("browserstack.debug", System.getProperty("selenium.hub.capability.browserstack.debug"));
-            }
+            }*/
 
             try{
                 driver = new RemoteWebDriver(
