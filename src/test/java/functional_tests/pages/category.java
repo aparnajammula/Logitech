@@ -53,11 +53,12 @@ public class category extends Framework {
     @FindBy(css = "#products-grid > a:nth-child(12) > div.product-image.yellow-green-bg")private WebElement ProductImage;
     public  WebElement Product_Image(){return ProductImage;}
 
-    @FindBy(css = "#products-grid > a:nth-child(2) > div.product-image.yellow-green-bg")private WebElement ProductImage2;
-    public  WebElement Product_Image2(){return ProductImage2;}
-
-    @FindBy(css = "#products-grid > a:nth-child(6) > div.product-image.red-bg > img")private WebElement ProductImage1;
+    @FindBy(css = "#products-grid div.product-image.yellow-green-bg > img")private WebElement ProductImage1;
     public  WebElement Product_Image1(){return ProductImage1;}
+
+
+    @FindBy(css = "#products-grid > a:nth-child(6) > div.product-image.red-bg")private WebElement ProductImage2;
+    public  WebElement Product_Image2(){return ProductImage2;}
 
     @FindBy(css = "#products-grid div.product-info span.product-name")private WebElement ProductTitle;
     public  WebElement Product_Title(){return ProductTitle;}
@@ -65,13 +66,13 @@ public class category extends Framework {
     @FindBy(css = "#products-grid div.product-info span.price sup")private WebElement ProductMSRP;
     public  WebElement Product_MSRP(){return ProductMSRP;}
 
-    @FindBy(css = "#products-grid a:nth-child(2) span.product-description")private WebElement ProductDescription;
+    @FindBy(css = "#products-grid a:nth-child(3) span.product-description")private WebElement ProductDescription;
     public  WebElement Product_Description(){return ProductDescription;}
 
-    @FindBy(css = "#products-grid ul.color-swatches li")private WebElement ProductSwatch;
+    @FindBy(css = "#products-grid a:nth-child(3) ul.color-swatches li")private WebElement ProductSwatch;
     public  WebElement Product_Swatch(){return ProductSwatch;}
 
-    @FindBy(css = "#products-grid a:nth-child(1) span.disclaimer")private WebElement ProductDisclaimer;
+    @FindBy(css = "#products-grid > a:nth-child(2) span.disclaimer")private WebElement ProductDisclaimer;
     public  WebElement Product_Disclaimer(){return ProductDisclaimer;}
 
     @FindBy(css = "#products-grid a button")private WebElement LearnMore;
@@ -81,13 +82,13 @@ public class category extends Framework {
     public  WebElement Pre_Order(){return PreOrder;}
 
     // Compare
-    @FindBy(css = "#products-grid a:nth-child(2) div.compare-checkbox-group label")private WebElement CompareLabel;
-    public  WebElement Compare_Label(){return CompareLabel;}
-
-    @FindBy(css = "#products-grid a:nth-child(6) div.product-meta div.compare-checkbox-group label")private WebElement CompareLabel1;
+    @FindBy(css = "#products-grid > a:nth-child(3) div.compare-checkbox-group > label")private WebElement CompareLabel1;
     public  WebElement Compare_Label1(){return CompareLabel1;}
 
-    @FindBy(css = "#products-grid a:nth-child(2) #cb_002")private WebElement CompareCheckbox;
+    @FindBy(css = "#products-grid > a:nth-child(6) div.compare-checkbox-group > label")private WebElement CompareLabel2;
+    public  WebElement Compare_Label2(){return CompareLabel2;}
+
+    @FindBy(css = "#products-grid  #cb_002")private WebElement CompareCheckbox;
     public  WebElement Compare_Checkbox(){return CompareCheckbox;}
 
     @FindBy(css = "#compare-choices-btn")private WebElement CompareButton;

@@ -11,7 +11,7 @@ public class UrlConfiguration {
         String strHostServer = System.getProperty("Logitech.website.url");
         if(StringUtils.isEmpty(strHostServer)) {
             //throw new IllegalArgumentException("Must supply a scion website url (scion.website.url property) to execute tests against");
-            strHostServer = "http://logitech:log!tech@52.24.132.228/" ;
+            strHostServer = "http://logitech:log!tech@logitech-qa.s3-website-us-west-1.amazonaws.com/" ;
         }
 
         if( ! StringUtils.endsWith(strHostServer, "/")) {
