@@ -30,7 +30,9 @@ Feature: Category Page
      |Product Description|
      |Product Disclaimer |
      |Compare Checkbox   |
-     |Compare Label      |
+     |Compare Label1      |
+
+
 
   Scenario: Compare button is displayed
     Given User is on Category Page
