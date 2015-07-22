@@ -110,14 +110,14 @@
         <profile>
             <id>dev</id>
             <properties>
-                <Logitech.website.url>http://logitech:log!tech@54.149.5.19/</Logitech.website.url>
+                <Logitech.website.url>http://logitech:log!tech@ec2-54-69-150-48.us-west-2.compute.amazonaws.com/</Logitech.website.url>
                 <cucumber.options>--tags @smoke_test</cucumber.options>
             </properties>
         </profile>
         <profile>
             <id>tst</id>
             <properties>
-                <Logitech.website.url>http://logitech:log!tech@52.24.132.228/</Logitech.website.url>
+                <Logitech.website.url>http://logitech:log!tech@logitech-qa.s3-website-us-west-1.amazonaws.com/</Logitech.website.url>
                 <cucumber.options></cucumber.options>
             </properties>
         </profile>
