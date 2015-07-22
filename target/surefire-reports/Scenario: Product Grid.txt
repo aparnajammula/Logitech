@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: Scenario: Newsletter Error
+Test set: Scenario: Product Grid
 -------------------------------------------------------------------------------
-Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 76.621 sec - in Scenario: Newsletter Error
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.999 sec - in Scenario: Product Grid

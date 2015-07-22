@@ -131,10 +131,11 @@ public class Framework {
 
     }
 
-    public static void hover(WebElement elems){
+    public void hover(WebElement elems){
         // Hovering over elements
         Actions builder = new Actions(driver);
         builder.moveToElement(elems).perform();
+
 
     }
 

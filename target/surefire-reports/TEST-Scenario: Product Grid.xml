@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Scenario: Newsletter Error" time="1.277" tests="34" errors="0" skipped="0" failures="0">
+<testsuite name="Scenario: Product Grid" time="10.241" tests="5" errors="0" skipped="0" failures="0">
   <properties>
+    <property name="selenium.hub.endpoint" value="http://techsupport6:8t5GmmRBd32ihR7q1L38@hub.browserstack.com/wd/hub"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.45-b02"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/ajammula/Logi"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/ajammula/logi"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -43,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -P tst"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -P tst -Dselenium.hub.endpoint=http://techsupport6:8t5GmmRBd32ihR7q1L38@hub.browserstack.com/wd/hub"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -61,38 +62,9 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Given User is on pdp Page" classname="Scenario: View all elements on PDP Page" time="0.001"/>
-  <testcase name="Then the following elements of the &quot;pdp&quot; should be displayed" classname="Scenario: View all elements on PDP Page" time="0"/>
-  <testcase name="Scenario: View all elements on PDP Page" classname="Scenario: View all elements on PDP Page" time="0.235"/>
-  <testcase name="Given User is on Category Page" classname="Scenario: View all elements on category page" time="0"/>
-  <testcase name="Then the following elements of the &quot;category&quot; should be displayed" classname="Scenario: View all elements on category page" time="0"/>
-  <testcase name="Scenario: View all elements on category page" classname="Scenario: View all elements on category page" time="0.13"/>
-  <testcase name="Scenario: View all elements on category page" classname="Scenario: View all elements on category page" time="0.123"/>
-  <testcase name="Given User is on Category Page" classname="Scenario: Dropdowns work" time="0"/>
-  <testcase name="Then Verify that dropdowns are usable" classname="Scenario: Dropdowns work" time="0"/>
-  <testcase name="Scenario: Dropdowns work" classname="Scenario: Dropdowns work" time="0.151"/>
-  <testcase name="Given User is on Category Page" classname="Scenario: Product Grid" time="0"/>
+  <testcase name="Given User is on Category Page" classname="Scenario: Product Grid" time="0.001"/>
   <testcase name="And select a category" classname="Scenario: Product Grid" time="0"/>
   <testcase name="And Hover on product image" classname="Scenario: Product Grid" time="0"/>
   <testcase name="Then the following elements of the &quot;category&quot; should be displayed" classname="Scenario: Product Grid" time="0"/>
-  <testcase name="Scenario: Product Grid" classname="Scenario: Product Grid" time="0.128"/>
-  <testcase name="Given User is on Category Page" classname="Scenario: Compare button is displayed" time="0"/>
-  <testcase name="And select a category" classname="Scenario: Compare button is displayed" time="0"/>
-  <testcase name="Then Verify that user can go to compare page" classname="Scenario: Compare button is displayed" time="0"/>
-  <testcase name="Scenario: Compare button is displayed" classname="Scenario: Compare button is displayed" time="0.122"/>
-  <testcase name="Given User is on compare Page" classname="Scenario: View all elements on category page" time="0"/>
-  <testcase name="Then the following elements of the &quot;compare&quot; should be displayed" classname="Scenario: View all elements on category page" time="0"/>
-  <testcase name="Given User is on Category Page" classname="Scenario: View header and Footer" time="0"/>
-  <testcase name="Then the following elements of the &quot;navigation&quot; should be displayed" classname="Scenario: View header and Footer" time="0"/>
-  <testcase name="Scenario: View header and Footer" classname="Scenario: View header and Footer" time="0.132"/>
-  <testcase name="Given User is on Category Page" classname="Scenario: View hamburger nav in header" time="0"/>
-  <testcase name="Then Scroll down on the page" classname="Scenario: View hamburger nav in header" time="0"/>
-  <testcase name="And verify hamburger nav is displayed" classname="Scenario: View hamburger nav in header" time="0"/>
-  <testcase name="Scenario: View hamburger nav in header" classname="Scenario: View hamburger nav in header" time="0.128"/>
-  <testcase name="Given User is on Category Page" classname="Scenario: Able to subscribe to Newsletter" time="0"/>
-  <testcase name="Then verify user is able to successfully subscribe to newsletter" classname="Scenario: Able to subscribe to Newsletter" time="0"/>
-  <testcase name="Scenario: Able to subscribe to Newsletter" classname="Scenario: Able to subscribe to Newsletter" time="0.123"/>
-  <testcase name="Given User is on Category Page" classname="Scenario: Newsletter Error" time="0"/>
-  <testcase name="Then Error is displayed on entering an invalid email" classname="Scenario: Newsletter Error" time="0"/>
-  <testcase name="Scenario: Newsletter Error" classname="Scenario: Newsletter Error" time="0.127"/>
+  <testcase name="Scenario: Product Grid" classname="Scenario: Product Grid" time="10.24"/>
 </testsuite>

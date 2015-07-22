@@ -9,6 +9,9 @@ import functional_tests.pages.category;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.*;
+
 
 import static org.testng.Assert.*;
 
@@ -45,8 +48,8 @@ public class categoryPage extends Framework{
     @Then("^Hover on product image$")
     public void Hover_on_product_image() throws Throwable {
         hover(CP.Product_Image1());
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-       // SaveScreenShot("image1");
+        driver.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
+
     }
 
     @Then("^Verify that user can go to compare page$")

@@ -53,7 +53,7 @@ public class category extends Framework {
     @FindBy(css = "#products-grid > a:nth-child(12) > div.product-image.yellow-green-bg")private WebElement ProductImage;
     public  WebElement Product_Image(){return ProductImage;}
 
-    @FindBy(css = "#products-grid div.product-image.yellow-green-bg > img")private WebElement ProductImage1;
+    @FindBy(css = "#products-grid a:nth-child(3) div.product-image.yellow-green-bg")private WebElement ProductImage1;
     public  WebElement Product_Image1(){return ProductImage1;}
 
 
