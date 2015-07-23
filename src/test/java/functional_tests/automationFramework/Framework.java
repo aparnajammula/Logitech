@@ -45,11 +45,11 @@ public class Framework {
         String seleniumHubEndpoint = System.getProperty("selenium.hub.endpoint");
         if(StringUtils.isNotEmpty(seleniumHubEndpoint)) {
             caps = new DesiredCapabilities();
-            caps.setCapability("browser", "IE");
-            caps.setCapability("browser_version", "9.0");
-            caps.setCapability("os", "Windows");
-            caps.setCapability("os_version", "7");
-            caps.setCapability("resolution", "1280x800");
+            caps.setCapability("browser", "Firefox");
+            caps.setCapability("browser_version", "39.0");
+            caps.setCapability("os", "OS X");
+            caps.setCapability("os_version", "Yosemite");
+            caps.setCapability("resolution", "1280x960");
             caps.setCapability("browserstack.debug", "true");
 
             /*caps.setCapability("browser", System.getProperty("selenium.hub.capability.browser", "firefox"));
