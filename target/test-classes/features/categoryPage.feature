@@ -18,7 +18,7 @@ Feature: Category Page
      Given User is on Category Page
      Then Verify that dropdowns are usable
 
-   @Failure
+
    Scenario: Product Grid
      Given User is on Category Page
      And select a category
@@ -26,13 +26,14 @@ Feature: Category Page
      Then the following elements of the "category" should be displayed
      |Product Title|
      |Product MSRP |
+     |Product Swatch|
      |Product Description|
      |Product Disclaimer |
      |Compare Checkbox   |
      |Compare Label1      |
 
 
-
+  @Failure
   Scenario: Compare button is displayed
     Given User is on Category Page
     And select a category

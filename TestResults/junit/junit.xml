@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="31.904064">
-<testcase classname="Category Page" name="Product Grid" time="31.904064">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="37.871389">
+<testcase classname="Category Page" name="Compare button is displayed" time="37.871389">
 <system-out><![CDATA[Given User is on Category Page..............................................passed
 And select a category.......................................................passed
-And Hover on product image..................................................passed
-Then the following elements of the "category" should be displayed...........passed
+Then Verify that user can go to compare page................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

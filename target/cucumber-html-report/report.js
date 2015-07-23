@@ -7,75 +7,32 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenario({
-  "line": 22,
-  "name": "Product Grid",
+  "line": 37,
+  "name": "Compare button is displayed",
   "description": "",
-  "id": "category-page;product-grid",
+  "id": "category-page;compare-button-is-displayed",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 21,
+      "line": 36,
       "name": "@Failure"
     }
   ]
 });
 formatter.step({
-  "line": 23,
+  "line": 38,
   "name": "User is on Category Page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 24,
+  "line": 39,
   "name": "select a category",
   "keyword": "And "
 });
 formatter.step({
-  "line": 25,
-  "name": "Hover on product image",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 26,
-  "name": "the following elements of the \"category\" should be displayed",
-  "rows": [
-    {
-      "cells": [
-        "Product Title"
-      ],
-      "line": 27
-    },
-    {
-      "cells": [
-        "Product MSRP"
-      ],
-      "line": 28
-    },
-    {
-      "cells": [
-        "Product Description"
-      ],
-      "line": 29
-    },
-    {
-      "cells": [
-        "Product Disclaimer"
-      ],
-      "line": 30
-    },
-    {
-      "cells": [
-        "Compare Checkbox"
-      ],
-      "line": 31
-    },
-    {
-      "cells": [
-        "Compare Label1"
-      ],
-      "line": 32
-    }
-  ],
+  "line": 40,
+  "name": "Verify that user can go to compare page",
   "keyword": "Then "
 });
 formatter.match({
@@ -88,38 +45,25 @@ formatter.match({
   "location": "commonSteps.Page(String)"
 });
 formatter.result({
-  "duration": 19556353025,
+  "duration": 35689204481,
   "status": "passed"
 });
 formatter.match({
   "location": "categoryPage.select_a_category()"
 });
 formatter.result({
-  "duration": 785105159,
+  "duration": 445977202,
   "status": "passed"
 });
 formatter.match({
-  "location": "categoryPage.Hover_on_product_image()"
+  "location": "categoryPage.Verify_that_user_can_go_to_compare_page()"
 });
 formatter.result({
-  "duration": 322904565,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "category",
-      "offset": 31
-    }
-  ],
-  "location": "commonSteps.validate_elements(String,String\u003e)"
-});
-formatter.result({
-  "duration": 1001692436,
+  "duration": 1617659217,
   "status": "passed"
 });
 formatter.after({
-  "duration": 10238009027,
+  "duration": 118547788,
   "status": "passed"
 });
 });

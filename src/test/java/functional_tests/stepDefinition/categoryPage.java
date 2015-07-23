@@ -60,6 +60,7 @@ public class categoryPage extends Framework{
         //CP.Compare_Checkbox2().click();
         hover(CP.Product_Image1());
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", CP.Compare_Label2());
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         assertEquals("COMPARE (2)", CP.Compare_Button().getText());
         CP.Compare_Button().click();
         assertTrue(driver.getCurrentUrl().endsWith("compare.html"));
