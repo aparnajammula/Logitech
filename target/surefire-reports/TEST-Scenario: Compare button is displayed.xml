@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Scenario: Compare button is displayed" time="0.122" tests="4" errors="0" skipped="0" failures="0">
+<testsuite name="Scenario: Compare button is displayed" time="16.567" tests="4" errors="0" skipped="0" failures="0">
   <properties>
+    <property name="selenium.hub.endpoint" value="http://techsupport6:8t5GmmRBd32ihR7q1L38@hub.browserstack.com/wd/hub"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.45-b02"/>
@@ -43,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -P tst"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -P tst -Dselenium.hub.endpoint=http://techsupport6:8t5GmmRBd32ihR7q1L38@hub.browserstack.com/wd/hub"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -61,8 +62,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Given User is on Category Page" classname="Scenario: Compare button is displayed" time="0.002"/>
+  <testcase name="Given User is on Category Page" classname="Scenario: Compare button is displayed" time="0.001"/>
   <testcase name="And select a category" classname="Scenario: Compare button is displayed" time="0"/>
   <testcase name="Then Verify that user can go to compare page" classname="Scenario: Compare button is displayed" time="0"/>
-  <testcase name="Scenario: Compare button is displayed" classname="Scenario: Compare button is displayed" time="0.12"/>
+  <testcase name="Scenario: Compare button is displayed" classname="Scenario: Compare button is displayed" time="16.566"/>
 </testsuite>

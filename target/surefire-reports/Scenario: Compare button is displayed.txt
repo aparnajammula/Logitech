@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Scenario: Compare button is displayed
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.933 sec - in Scenario: Compare button is displayed
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 32.76 sec - in Scenario: Compare button is displayed

@@ -45,25 +45,25 @@ formatter.match({
   "location": "commonSteps.Page(String)"
 });
 formatter.result({
-  "duration": 35689204481,
+  "duration": 13493709909,
   "status": "passed"
 });
 formatter.match({
   "location": "categoryPage.select_a_category()"
 });
 formatter.result({
-  "duration": 445977202,
+  "duration": 766505626,
   "status": "passed"
 });
 formatter.match({
   "location": "categoryPage.Verify_that_user_can_go_to_compare_page()"
 });
 formatter.result({
-  "duration": 1617659217,
+  "duration": 1866355858,
   "status": "passed"
 });
 formatter.after({
-  "duration": 118547788,
+  "duration": 16564498129,
   "status": "passed"
 });
 });
