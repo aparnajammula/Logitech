@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c1311db-9961-4adf-a189-7a3b763b0445" name="Default" comment="Updating Category page - 2">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/Scenario: Compare button is displayed.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Scenario: Compare button is displayed.xml" afterPath="" />
+    <list default="true" id="6c1311db-9961-4adf-a189-7a3b763b0445" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/functional_tests/stepDefinition/RunnerTest.class" afterPath="$PROJECT_DIR$/target/test-classes/functional_tests/stepDefinition/RunnerTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/functional_tests/pages/category.java" afterPath="$PROJECT_DIR$/src/test/java/functional_tests/pages/category.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/features/categoryPage.feature" afterPath="$PROJECT_DIR$/target/test-classes/features/categoryPage.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/features/comparePage.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/comparePage.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber-json-report.json" afterPath="$PROJECT_DIR$/target/cucumber-json-report.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestResults/junit/junit.xml" afterPath="$PROJECT_DIR$/TestResults/junit/junit.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber-html-report/report.js" afterPath="$PROJECT_DIR$/target/cucumber-html-report/report.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -730,7 +725,7 @@
       <workItem from="1437165985356" duration="650000" />
       <workItem from="1437512883331" duration="9528000" />
       <workItem from="1437671465616" duration="2205000" />
-      <workItem from="1438195735208" duration="673000" />
+      <workItem from="1438195735208" duration="734000" />
     </task>
     <task id="LOCAL-00001" summary="json reports">
       <created>1437166348885</created>
@@ -756,11 +751,17 @@
       <option name="project" value="LOCAL" />
       <updated>1437604356951</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updating tests&#10;1. Remove learn more on compare page&#10;2. updating learn more locator on category page">
+      <created>1438196472307</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1438196472307</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46269000" />
+    <option name="totallyTimeSpent" value="46330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-443" y="-1338" width="1646" height="1256" extended-state="0" />
@@ -834,7 +835,8 @@
     <MESSAGE value="html reports" />
     <MESSAGE value="Updating Category page" />
     <MESSAGE value="Updating Category page - 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating Category page - 2" />
+    <MESSAGE value="Updating tests&#10;1. Remove learn more on compare page&#10;2. updating learn more locator on category page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating tests&#10;1. Remove learn more on compare page&#10;2. updating learn more locator on category page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
