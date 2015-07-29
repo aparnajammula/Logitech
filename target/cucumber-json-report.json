@@ -3,14 +3,14 @@
     "line": 1,
     "elements": [
       {
-        "line": 37,
-        "name": "Compare button is displayed",
+        "line": 3,
+        "name": "View all elements on PDP Page",
         "description": "",
-        "id": "category-page;compare-button-is-displayed",
+        "id": "pdp-new-page;view-all-elements-on-pdp-page",
         "after": [
           {
             "result": {
-              "duration": 16564498129,
+              "duration": 128468757,
               "status": "passed"
             },
             "match": {
@@ -23,7 +23,419 @@
         "steps": [
           {
             "result": {
-              "duration": 13493709909,
+              "duration": 7278795436,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on pdp Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pdp",
+                  "offset": 11
+                }
+              ],
+              "location": "commonSteps.Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1114096751,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the following elements of the \"pdp\" should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pdp",
+                  "offset": 31
+                }
+              ],
+              "location": "commonSteps.validate_elements(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Features Portable"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "Features Durable"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "Features Video"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "TechSpecs Header"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "Support Headline"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Support Button"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Quote"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "RelatedProducts Headline"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "RelatedProducts Carousel"
+                ],
+                "line": 14
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "PDP New page",
+    "description": "",
+    "id": "pdp-new-page",
+    "keyword": "Feature",
+    "uri": "PDPNew.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "View all elements on category page",
+        "description": "",
+        "id": "category-page;view-all-elements-on-category-page",
+        "after": [
+          {
+            "result": {
+              "duration": 130060150,
+              "status": "passed"
+            },
+            "match": {
+              "location": "commonSteps.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5405319069,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Category Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Category",
+                  "offset": 11
+                }
+              ],
+              "location": "commonSteps.Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1103773993,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the following elements of the \"category\" should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "category",
+                  "offset": 31
+                }
+              ],
+              "location": "commonSteps.validate_elements(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Header Title"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "Header Prefix"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "Num Showing"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "Product Image2"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "Product Title"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Learn More"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Pre Order"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "Category Filter"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "Sort Filter"
+                ],
+                "line": 14
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Dropdowns work",
+        "description": "",
+        "id": "category-page;dropdowns-work",
+        "after": [
+          {
+            "result": {
+              "duration": 136092775,
+              "status": "passed"
+            },
+            "match": {
+              "location": "commonSteps.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5050099888,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User is on Category Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Category",
+                  "offset": 11
+                }
+              ],
+              "location": "commonSteps.Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1914162282,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify that dropdowns are usable",
+            "match": {
+              "location": "categoryPage.Verify_that_dropdowns_are_usable()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Product Grid",
+        "description": "",
+        "id": "category-page;product-grid",
+        "after": [
+          {
+            "result": {
+              "duration": 140561407,
+              "status": "passed"
+            },
+            "match": {
+              "location": "commonSteps.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5203186273,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User is on Category Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Category",
+                  "offset": 11
+                }
+              ],
+              "location": "commonSteps.Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 483662914,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "select a category",
+            "match": {
+              "location": "categoryPage.select_a_category()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 290103468,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Hover on product image",
+            "match": {
+              "location": "categoryPage.Hover_on_product_image()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 904668143,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the following elements of the \"category\" should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "category",
+                  "offset": 31
+                }
+              ],
+              "location": "commonSteps.validate_elements(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Product Title"
+                ],
+                "line": 27
+              },
+              {
+                "cells": [
+                  "Product MSRP"
+                ],
+                "line": 28
+              },
+              {
+                "cells": [
+                  "Product Swatch"
+                ],
+                "line": 29
+              },
+              {
+                "cells": [
+                  "Product Description"
+                ],
+                "line": 30
+              },
+              {
+                "cells": [
+                  "Product Disclaimer"
+                ],
+                "line": 31
+              },
+              {
+                "cells": [
+                  "Compare Checkbox"
+                ],
+                "line": 32
+              },
+              {
+                "cells": [
+                  "Compare Label1"
+                ],
+                "line": 33
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "Compare button is displayed",
+        "description": "",
+        "id": "category-page;compare-button-is-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 132788818,
+              "status": "passed"
+            },
+            "match": {
+              "location": "commonSteps.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5248475705,
               "status": "passed"
             },
             "line": 38,
@@ -41,7 +453,7 @@
           },
           {
             "result": {
-              "duration": 766505626,
+              "duration": 574812459,
               "status": "passed"
             },
             "line": 39,
@@ -53,7 +465,7 @@
           },
           {
             "result": {
-              "duration": 1866355858,
+              "duration": 1232643168,
               "status": "passed"
             },
             "line": 40,
@@ -63,12 +475,6 @@
             },
             "keyword": "Then "
           }
-        ],
-        "tags": [
-          {
-            "line": 36,
-            "name": "@Failure"
-          }
         ]
       }
     ],
@@ -77,5 +483,404 @@
     "id": "category-page",
     "keyword": "Feature",
     "uri": "categoryPage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "View all elements on category page",
+        "description": "",
+        "id": "compare-page;view-all-elements-on-category-page",
+        "after": [
+          {
+            "result": {
+              "duration": 152364547,
+              "status": "passed"
+            },
+            "match": {
+              "location": "commonSteps.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5113199309,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on compare Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "compare",
+                  "offset": 11
+                }
+              ],
+              "location": "commonSteps.Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 947259141,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the following elements of the \"compare\" should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "compare",
+                  "offset": 31
+                }
+              ],
+              "location": "commonSteps.validate_elements(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "See All"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "Product Name"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "Product Price"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "Product Disclaimer"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "Product Image"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Product Close"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "AllFeatures"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "TechSpecs"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Compare Page",
+    "description": "",
+    "id": "compare-page",
+    "keyword": "Feature",
+    "uri": "comparePage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "View header and Footer",
+        "description": "",
+        "id": "navigation;view-header-and-footer",
+        "after": [
+          {
+            "result": {
+              "duration": 137939279,
+              "status": "passed"
+            },
+            "match": {
+              "location": "commonSteps.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5257969270,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Category Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Category",
+                  "offset": 11
+                }
+              ],
+              "location": "commonSteps.Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 958919174,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the following elements of the \"navigation\" should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "navigation",
+                  "offset": 31
+                }
+              ],
+              "location": "commonSteps.validate_elements(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Logo"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "Utility Nav"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "Sub Nav"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "Social Links"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "Links"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Copyright"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Language Selector"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "Country Selector"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "View hamburger nav in header",
+        "description": "",
+        "id": "navigation;view-hamburger-nav-in-header",
+        "after": [
+          {
+            "result": {
+              "duration": 131336864,
+              "status": "passed"
+            },
+            "match": {
+              "location": "commonSteps.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5381267369,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is on Category Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Category",
+                  "offset": 11
+                }
+              ],
+              "location": "commonSteps.Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1296008664,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Scroll down on the page",
+            "match": {
+              "location": "navigateTest.Scroll_down_on_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 105768476,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "verify hamburger nav is displayed",
+            "match": {
+              "location": "navigateTest.verify_hamburger_nav_is_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Able to subscribe to Newsletter",
+        "description": "",
+        "id": "navigation;able-to-subscribe-to-newsletter",
+        "after": [
+          {
+            "result": {
+              "duration": 132131527,
+              "status": "passed"
+            },
+            "match": {
+              "location": "commonSteps.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5033072797,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User is on Category Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Category",
+                  "offset": 11
+                }
+              ],
+              "location": "commonSteps.Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 604439589,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "verify user is able to successfully subscribe to newsletter",
+            "match": {
+              "location": "navigateTest.verify_user_is_able_to_successfully_subscribe_to_newsletter()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Newsletter Error",
+        "description": "",
+        "id": "navigation;newsletter-error",
+        "after": [
+          {
+            "result": {
+              "duration": 129763663,
+              "status": "passed"
+            },
+            "match": {
+              "location": "commonSteps.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5121995265,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User is on Category Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Category",
+                  "offset": 11
+                }
+              ],
+              "location": "commonSteps.Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 594671342,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Error is displayed on entering an invalid email",
+            "match": {
+              "location": "navigateTest.Error_is_displayed_on_entering_an_invalid_email()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Navigation",
+    "description": "",
+    "id": "navigation",
+    "keyword": "Feature",
+    "uri": "navigation.feature"
   }
 ]

@@ -75,8 +75,9 @@ public class category extends Framework {
     @FindBy(css = "#products-grid > a:nth-child(2) span.disclaimer")private WebElement ProductDisclaimer;
     public  WebElement Product_Disclaimer(){return ProductDisclaimer;}
 
-    @FindBy(css = "#products-grid a button")private WebElement LearnMore;
+    @FindBy(css = "#products-grid a.learn-more")private WebElement LearnMore;
     public  WebElement Learn_More(){return LearnMore;}
+
 
     @FindBy(css = "#products-grid div.pre-order")private WebElement PreOrder;
     public  WebElement Pre_Order(){return PreOrder;}
