@@ -7,7 +7,6 @@ Feature: Compare Page
     |Product Name      |
     |Product Price     |
     |Product Disclaimer|
-    |Product Learnmore |
     |Product Image     |
     |Product Close     |
     |AllFeatures       |
