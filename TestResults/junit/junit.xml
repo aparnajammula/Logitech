@@ -1,56 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="10" time="67.569877">
-<testcase classname="PDP New page" name="View all elements on PDP Page" time="8.521361">
-<system-out><![CDATA[Given User is on pdp Page...................................................passed
-Then the following elements of the "pdp" should be displayed................passed
-]]></system-out>
-</testcase>
-<testcase classname="Category Page" name="View all elements on category page" time="6.639153">
-<system-out><![CDATA[Given User is on Category Page..............................................passed
-Then the following elements of the "category" should be displayed...........passed
-]]></system-out>
-</testcase>
-<testcase classname="Category Page" name="Dropdowns work" time="7.100355">
-<system-out><![CDATA[Given User is on Category Page..............................................passed
-Then Verify that dropdowns are usable.......................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Category Page" name="Product Grid" time="7.022182">
-<system-out><![CDATA[Given User is on Category Page..............................................passed
-And select a category.......................................................passed
-And Hover on product image..................................................passed
-Then the following elements of the "category" should be displayed...........passed
-]]></system-out>
-</testcase>
-<testcase classname="Category Page" name="Compare button is displayed" time="7.18872">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="32.569097">
+<testcase classname="Category Page" name="Compare button is displayed" time="32.569097">
 <system-out><![CDATA[Given User is on Category Page..............................................passed
 And select a category.......................................................passed
 Then Verify that user can go to compare page................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Compare Page" name="View all elements on category page" time="6.212823">
-<system-out><![CDATA[Given User is on compare Page...............................................passed
-Then the following elements of the "compare" should be displayed............passed
-]]></system-out>
-</testcase>
-<testcase classname="Navigation" name="View header and Footer" time="6.354828">
-<system-out><![CDATA[Given User is on Category Page..............................................passed
-Then the following elements of the "navigation" should be displayed.........passed
-]]></system-out>
-</testcase>
-<testcase classname="Navigation" name="View hamburger nav in header" time="6.914381">
-<system-out><![CDATA[Given User is on Category Page..............................................passed
-Then Scroll down on the page................................................passed
-And verify hamburger nav is displayed.......................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Navigation" name="Able to subscribe to Newsletter" time="5.769644">
-<system-out><![CDATA[Given User is on Category Page..............................................passed
-Then verify user is able to successfully subscribe to newsletter............passed
-]]></system-out>
-</testcase>
-<testcase classname="Navigation" name="Newsletter Error" time="5.84643">
-<system-out><![CDATA[Given User is on Category Page..............................................passed
-Then Error is displayed on entering an invalid email........................passed
 ]]></system-out>
 </testcase>
 </testsuite>

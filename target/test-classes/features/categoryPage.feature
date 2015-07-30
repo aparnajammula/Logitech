@@ -33,7 +33,7 @@ Feature: Category Page
      |Compare Label1      |
 
 
-
+  @regression
   Scenario: Compare button is displayed
     Given User is on Category Page
     And select a category
