@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Scenario: Compare button is displayed" time="10.801" tests="4" errors="0" skipped="0" failures="0">
+<testsuite name="Scenario: Compare button is displayed" time="10.87" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="selenium.hub.endpoint" value="http://techsupport6:8t5GmmRBd32ihR7q1L38@hub.browserstack.com/wd/hub"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -65,5 +65,5 @@
   <testcase name="Given User is on Category Page" classname="Scenario: Compare button is displayed" time="0.001"/>
   <testcase name="And select a category" classname="Scenario: Compare button is displayed" time="0"/>
   <testcase name="Then Verify that user can go to compare page" classname="Scenario: Compare button is displayed" time="0"/>
-  <testcase name="Scenario: Compare button is displayed" classname="Scenario: Compare button is displayed" time="10.8"/>
+  <testcase name="Scenario: Compare button is displayed" classname="Scenario: Compare button is displayed" time="10.869"/>
 </testsuite>

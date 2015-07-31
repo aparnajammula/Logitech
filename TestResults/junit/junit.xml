@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="32.569097">
-<testcase classname="Category Page" name="Compare button is displayed" time="32.569097">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="34.415202">
+<testcase classname="Category Page" name="Compare button is displayed" time="34.415202">
 <system-out><![CDATA[Given User is on Category Page..............................................passed
 And select a category.......................................................passed
 Then Verify that user can go to compare page................................passed
